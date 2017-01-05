@@ -1,0 +1,103 @@
+ul {
+	list-style-type: none;
+}
+
+.center {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+#headers {
+	margin-bottom: 20px;
+}
+
+.boxNum{
+	display: inline-block;
+	width: 70px;
+	height: 70px;
+	background-color: beige;
+	margin: 5px;
+	text-align: center;
+	line-height: 80px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#frame {
+	width: 800px;
+	margin: auto;
+}
+
+#instruct {
+	margin-top: 15px;
+}
+
+#attempt {
+	//position: absolute;
+	font-size: 3em;
+	width: 150px;
+	height: 150px;
+	border: 1px black dashed;
+	border-radius: 50%;
+	line-height: 150px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#tempBox {
+	//position:absolute;
+	float:right;
+	right: 25px;
+	top: 25px;
+	
+}
+
+.colBox {
+	min-width: 330px;
+	min-height: 40px;
+	margin: 5px;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: black;
+	padding: 10px;
+	
+}
+
+#hot{
+	background-color: rgb(255,0,0);
+}
+#warm{
+	background-color: rgb(255,128,128);
+}
+#lukeWarm{
+	background-color: rgb(255,128,0);
+}
+#middle{
+	background-color: rgb(255,255,0);
+}
+#cool{
+	background-color: rgb(77,255,255);
+}
+#chilly{
+	background-color: rgb(77,166,255);
+}
+#frozen{
+	background-color: rgb(77,77,255);
+}
+
+#reset{
+	min-width: 165px;
+}
+
+#hint{
+	min-width: 165px;
+}
+
+#menu-btns {
+	float: right;
+}
+
+#footer {
+    width: 100%;
+    background-color: white;;
+    bottom: 0;
+}
